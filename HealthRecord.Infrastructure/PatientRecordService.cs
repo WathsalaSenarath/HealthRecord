@@ -1,11 +1,6 @@
 ﻿using HealthRecord.Domain.Interfaces;
 using HealthRecord.Domain.Models;
 using HealthRecord.Infrastructure.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HealthRecord.Infrastructure
 {
