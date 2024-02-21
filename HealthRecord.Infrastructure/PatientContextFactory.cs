@@ -13,7 +13,7 @@ namespace HealthRecord.Infrastructure
         public PatientDbContext CreateDbContext(string[] args = null)
         {
             var options = new DbContextOptionsBuilder<PatientDbContext>();
-            options.UseSqlServer("server=.\\sqlexpress;database=PatientHealthRecordDb;Trusted_Connection=true;Encrypt=False");
+            options.UseSqlServer("server=.\\sqlexpress;database=;Trusted_Connection=true;Encrypt=False");
             return new PatientDbContext(options.Options);
         }
     }

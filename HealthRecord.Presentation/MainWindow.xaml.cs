@@ -146,7 +146,7 @@ namespace HealthRecord.Presentation
 
         private void ButtonOpenImageFolder_Click(object sender, RoutedEventArgs e)
         {
-            string selectedFolder = @"\\occ-fs1\Commondrive\Bangama, Yugraj"; // Set the folder path
+            string selectedFolder = @""; // Set the folder path
 
             try
             {
